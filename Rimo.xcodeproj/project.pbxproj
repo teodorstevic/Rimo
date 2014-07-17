@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A16ADAC1977F1A100BDE4D8 /* ViewControllerHomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADAB1977F1A100BDE4D8 /* ViewControllerHomeScreen.m */; };
+		4A16ADAF1977F1C800BDE4D8 /* ViewControllerLogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADAE1977F1C800BDE4D8 /* ViewControllerLogIn.m */; };
+		4A16ADB41977F3E900BDE4D8 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADB21977F3E900BDE4D8 /* CSVParser.m */; };
+		4A16ADB61977F40200BDE4D8 /* WAP.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4A16ADB51977F40200BDE4D8 /* WAP.csv */; };
 		4ABDC5CB1977B3B3009780EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CA1977B3B3009780EB /* Foundation.framework */; };
 		4ABDC5CD1977B3B3009780EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */; };
 		4ABDC5CF1977B3B3009780EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CE1977B3B3009780EB /* UIKit.framework */; };
@@ -14,7 +18,6 @@
 		4ABDC5D71977B3B3009780EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5D61977B3B3009780EB /* main.m */; };
 		4ABDC5DB1977B3B3009780EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5DA1977B3B3009780EB /* AppDelegate.m */; };
 		4ABDC5DE1977B3B3009780EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDC5DC1977B3B3009780EB /* Main.storyboard */; };
-		4ABDC5E11977B3B3009780EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5E01977B3B3009780EB /* ViewController.m */; };
 		4ABDC5E31977B3B3009780EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDC5E21977B3B3009780EB /* Images.xcassets */; };
 		4ABDC5EA1977B3B3009780EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5E91977B3B3009780EB /* XCTest.framework */; };
 		4ABDC5EB1977B3B3009780EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CA1977B3B3009780EB /* Foundation.framework */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A16ADAA1977F1A100BDE4D8 /* ViewControllerHomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerHomeScreen.h; path = ../ViewControllerHomeScreen.h; sourceTree = "<group>"; };
+		4A16ADAB1977F1A100BDE4D8 /* ViewControllerHomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerHomeScreen.m; path = ../ViewControllerHomeScreen.m; sourceTree = "<group>"; };
+		4A16ADAD1977F1C800BDE4D8 /* ViewControllerLogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLogIn.h; path = ../ViewControllerLogIn.h; sourceTree = "<group>"; };
+		4A16ADAE1977F1C800BDE4D8 /* ViewControllerLogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLogIn.m; path = ../ViewControllerLogIn.m; sourceTree = "<group>"; };
+		4A16ADB21977F3E900BDE4D8 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		4A16ADB31977F3E900BDE4D8 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		4A16ADB51977F40200BDE4D8 /* WAP.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WAP.csv; sourceTree = "<group>"; };
 		4ABDC5C71977B3B3009780EB /* Rimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABDC5CA1977B3B3009780EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +55,6 @@
 		4ABDC5D91977B3B3009780EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ABDC5DA1977B3B3009780EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4ABDC5DD1977B3B3009780EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4ABDC5DF1977B3B3009780EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4ABDC5E01977B3B3009780EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4ABDC5E21977B3B3009780EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4ABDC5E81977B3B3009780EB /* RimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABDC5E91977B3B3009780EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A16ADB01977F25000BDE4D8 /* CSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				4A16ADB51977F40200BDE4D8 /* WAP.csv */,
+				4A16ADB21977F3E900BDE4D8 /* CSVParser.m */,
+				4A16ADB31977F3E900BDE4D8 /* CSVParser.h */,
+			);
+			name = CSVParser;
+			sourceTree = "<group>";
+		};
+		4A16ADB11977F25900BDE4D8 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
 		4ABDC5BE1977B3B3009780EB = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +137,15 @@
 		4ABDC5D01977B3B3009780EB /* Rimo */ = {
 			isa = PBXGroup;
 			children = (
+				4A16ADB11977F25900BDE4D8 /* XMLParser */,
+				4A16ADB01977F25000BDE4D8 /* CSVParser */,
 				4ABDC5D91977B3B3009780EB /* AppDelegate.h */,
 				4ABDC5DA1977B3B3009780EB /* AppDelegate.m */,
 				4ABDC5DC1977B3B3009780EB /* Main.storyboard */,
-				4ABDC5DF1977B3B3009780EB /* ViewController.h */,
-				4ABDC5E01977B3B3009780EB /* ViewController.m */,
+				4A16ADAD1977F1C800BDE4D8 /* ViewControllerLogIn.h */,
+				4A16ADAE1977F1C800BDE4D8 /* ViewControllerLogIn.m */,
+				4A16ADAA1977F1A100BDE4D8 /* ViewControllerHomeScreen.h */,
+				4A16ADAB1977F1A100BDE4D8 /* ViewControllerHomeScreen.m */,
 				4ABDC5E21977B3B3009780EB /* Images.xcassets */,
 				4ABDC5D11977B3B3009780EB /* Supporting Files */,
 			);
@@ -229,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABDC5E31977B3B3009780EB /* Images.xcassets in Resources */,
+				4A16ADB61977F40200BDE4D8 /* WAP.csv in Resources */,
 				4ABDC5D51977B3B3009780EB /* InfoPlist.strings in Resources */,
 				4ABDC5DE1977B3B3009780EB /* Main.storyboard in Resources */,
 			);
@@ -249,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABDC5E11977B3B3009780EB /* ViewController.m in Sources */,
+				4A16ADAF1977F1C800BDE4D8 /* ViewControllerLogIn.m in Sources */,
+				4A16ADAC1977F1A100BDE4D8 /* ViewControllerHomeScreen.m in Sources */,
+				4A16ADB41977F3E900BDE4D8 /* CSVParser.m in Sources */,
 				4ABDC5DB1977B3B3009780EB /* AppDelegate.m in Sources */,
 				4ABDC5D71977B3B3009780EB /* main.m in Sources */,
 			);
@@ -458,6 +490,7 @@
 				4ABDC5FB1977B3B3009780EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ABDC5FC1977B3B3009780EB /* Build configuration list for PBXNativeTarget "RimoTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +499,7 @@
 				4ABDC5FE1977B3B3009780EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
