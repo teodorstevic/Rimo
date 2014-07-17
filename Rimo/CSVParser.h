@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface UIViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) IBOutlet UITextField *txtTextField;
 @property (strong, nonatomic) IBOutlet UITextField *txtTextField2;
 @property (strong, nonatomic) IBOutlet UITableView *tableViewSuggestions;
@@ -17,7 +17,9 @@
 @property (strong, nonatomic) IBOutlet NSMutableArray *marrayRezultats;
 @property (strong, nonatomic) IBOutlet NSMutableDictionary *dict;
 @property (strong, nonatomic) IBOutlet NSMutableDictionary *idDict;
-
 @property (strong, nonatomic) IBOutlet NSMutableArray  *arrayAdress;
+
+- (void) textFieldshouldChange;
 - (IBAction)buttonImportCSV:(id)sender;
+
 @end

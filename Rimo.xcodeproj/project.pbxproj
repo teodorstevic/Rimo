@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		4A16ADAC1977F1A100BDE4D8 /* ViewControllerHomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADAB1977F1A100BDE4D8 /* ViewControllerHomeScreen.m */; };
 		4A16ADAF1977F1C800BDE4D8 /* ViewControllerLogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADAE1977F1C800BDE4D8 /* ViewControllerLogIn.m */; };
-		4A16ADB41977F3E900BDE4D8 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADB21977F3E900BDE4D8 /* CSVParser.m */; };
 		4A16ADB61977F40200BDE4D8 /* WAP.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4A16ADB51977F40200BDE4D8 /* WAP.csv */; };
+		4A7923001978075900DAD3AE /* SearchResultsFromCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7922FF1978075900DAD3AE /* SearchResultsFromCSV.m */; };
 		4ABDC5CB1977B3B3009780EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CA1977B3B3009780EB /* Foundation.framework */; };
 		4ABDC5CD1977B3B3009780EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */; };
 		4ABDC5CF1977B3B3009780EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CE1977B3B3009780EB /* UIKit.framework */; };
@@ -41,9 +41,9 @@
 		4A16ADAB1977F1A100BDE4D8 /* ViewControllerHomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerHomeScreen.m; path = ../ViewControllerHomeScreen.m; sourceTree = "<group>"; };
 		4A16ADAD1977F1C800BDE4D8 /* ViewControllerLogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLogIn.h; path = ../ViewControllerLogIn.h; sourceTree = "<group>"; };
 		4A16ADAE1977F1C800BDE4D8 /* ViewControllerLogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLogIn.m; path = ../ViewControllerLogIn.m; sourceTree = "<group>"; };
-		4A16ADB21977F3E900BDE4D8 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
-		4A16ADB31977F3E900BDE4D8 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
 		4A16ADB51977F40200BDE4D8 /* WAP.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WAP.csv; sourceTree = "<group>"; };
+		4A7922FE1978075900DAD3AE /* SearchResultsFromCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsFromCSV.h; path = ../SearchResultsFromCSV.h; sourceTree = "<group>"; };
+		4A7922FF1978075900DAD3AE /* SearchResultsFromCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsFromCSV.m; path = ../SearchResultsFromCSV.m; sourceTree = "<group>"; };
 		4ABDC5C71977B3B3009780EB /* Rimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABDC5CA1977B3B3009780EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,8 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				4A16ADB51977F40200BDE4D8 /* WAP.csv */,
-				4A16ADB21977F3E900BDE4D8 /* CSVParser.m */,
-				4A16ADB31977F3E900BDE4D8 /* CSVParser.h */,
+				4A7922FE1978075900DAD3AE /* SearchResultsFromCSV.h */,
+				4A7922FF1978075900DAD3AE /* SearchResultsFromCSV.m */,
 			);
 			name = CSVParser;
 			sourceTree = "<group>";
@@ -280,8 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A16ADAF1977F1C800BDE4D8 /* ViewControllerLogIn.m in Sources */,
+				4A7923001978075900DAD3AE /* SearchResultsFromCSV.m in Sources */,
 				4A16ADAC1977F1A100BDE4D8 /* ViewControllerHomeScreen.m in Sources */,
-				4A16ADB41977F3E900BDE4D8 /* CSVParser.m in Sources */,
 				4ABDC5DB1977B3B3009780EB /* AppDelegate.m in Sources */,
 				4ABDC5D71977B3B3009780EB /* main.m in Sources */,
 			);

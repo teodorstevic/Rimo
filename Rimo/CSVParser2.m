@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "CSVParser.h"
+#import "CSVParser2.h"
 
-@interface UIViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation UIViewController
+@implementation ViewController
 @synthesize tableViewSuggestions   ;
 @synthesize tableViewSuggestions2   ;
 @synthesize txtTextField;
@@ -53,9 +53,9 @@
         tableViewSuggestions2.hidden = NO;
         substring = txtTextField2.text;
     }
-
+    
     [self searchAutocompleteEntriesWithSubstring:substring];
-
+    
 }
 
 
@@ -67,22 +67,22 @@
         NSLog(@"%@-%@", curString,substring);
         
         if ([curString rangeOfString:substring options:NSCaseInsensitiveSearch].location == NSNotFound) {
-
+            
         }
         else{
-[suggestions addObject:curString];
+            [suggestions addObject:curString];
             
             
         }
         
     }
     if (txtTextField.isEditing) {
-    [tableViewSuggestions reloadData];
+        [tableViewSuggestions reloadData];
     }
     else if (txtTextField2.isEditing){
-    [tableViewSuggestions2 reloadData];
+        [tableViewSuggestions2 reloadData];
     }
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,7 +92,7 @@
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
+    
     // Return the number of sections.
     return 1;
 }
@@ -100,25 +100,25 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return suggestions.count;
-
+    
 }
 
 
 
- - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
- {
-     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"adress"];
-     if (cell==nil) {
-         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"adress"];
-         
-     }
- // Configure the cell...
-
-     cell.textLabel.text = [suggestions objectAtIndex:indexPath.row];
-     
-     
- return cell;
- }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"adress"];
+    if (cell==nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"adress"];
+        
+    }
+    // Configure the cell...
+    
+    cell.textLabel.text = [suggestions objectAtIndex:indexPath.row];
+    
+    
+    return cell;
+}
 
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -137,11 +137,11 @@
 
 
 - (IBAction)buttonImportCSV:(id)sender {
-
+    
     NSMutableArray *adress = [self returnDemandedValues:21];
     marrayRezultats= adress;
     NSLog(@"%@", marrayRezultats);
-
+    
 }
 
 
@@ -205,7 +205,7 @@
             [idDict setObject:[linesArray objectAtIndex:k] forKey:[NSString stringWithFormat:@"%i",k]];
         }
         k+=1;
-}
+    }
     NSLog(@"%@", idDict);
 }
 
