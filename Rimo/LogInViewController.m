@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LogInViewController.h"
 
 @interface ViewController ()
 
@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonLogIn:(id)sender {
+    [self performSegueWithIdentifier:@"logInToHomePage" sender:self];
+}
 @end

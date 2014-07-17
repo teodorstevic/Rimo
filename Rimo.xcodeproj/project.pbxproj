@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A16ADA91977F00700BDE4D8 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16ADA81977F00700BDE4D8 /* LogInViewController.m */; };
 		4ABDC5CB1977B3B3009780EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CA1977B3B3009780EB /* Foundation.framework */; };
 		4ABDC5CD1977B3B3009780EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */; };
 		4ABDC5CF1977B3B3009780EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CE1977B3B3009780EB /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		4ABDC5D71977B3B3009780EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5D61977B3B3009780EB /* main.m */; };
 		4ABDC5DB1977B3B3009780EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5DA1977B3B3009780EB /* AppDelegate.m */; };
 		4ABDC5DE1977B3B3009780EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDC5DC1977B3B3009780EB /* Main.storyboard */; };
-		4ABDC5E11977B3B3009780EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC5E01977B3B3009780EB /* ViewController.m */; };
 		4ABDC5E31977B3B3009780EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDC5E21977B3B3009780EB /* Images.xcassets */; };
 		4ABDC5EA1977B3B3009780EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5E91977B3B3009780EB /* XCTest.framework */; };
 		4ABDC5EB1977B3B3009780EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5CA1977B3B3009780EB /* Foundation.framework */; };
@@ -24,6 +24,7 @@
 		4ABDC6001977B769009780EB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDC5FF1977B769009780EB /* libxml2.dylib */; };
 		4ABDC6031977B861009780EB /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC6021977B861009780EB /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4ABDC6081977BBE5009780EB /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC6071977BBE5009780EB /* xmlParser.m */; };
+		4ABDC60B1977BEFA009780EB /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC60A1977BEFA009780EB /* HomepageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A16ADA71977F00700BDE4D8 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInViewController.h; path = ../LogInViewController.h; sourceTree = "<group>"; };
+		4A16ADA81977F00700BDE4D8 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInViewController.m; path = ../LogInViewController.m; sourceTree = "<group>"; };
 		4ABDC5C71977B3B3009780EB /* Rimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABDC5CA1977B3B3009780EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4ABDC5CC1977B3B3009780EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +51,6 @@
 		4ABDC5D91977B3B3009780EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ABDC5DA1977B3B3009780EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4ABDC5DD1977B3B3009780EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4ABDC5DF1977B3B3009780EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4ABDC5E01977B3B3009780EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4ABDC5E21977B3B3009780EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4ABDC5E81977B3B3009780EB /* RimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABDC5E91977B3B3009780EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,6 +62,8 @@
 		4ABDC6021977B861009780EB /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		4ABDC6061977BBE5009780EB /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
 		4ABDC6071977BBE5009780EB /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlParser.m; sourceTree = "<group>"; };
+		4ABDC6091977BEFA009780EB /* HomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomepageViewController.h; path = ../HomepageViewController.h; sourceTree = "<group>"; };
+		4ABDC60A1977BEFA009780EB /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomepageViewController.m; path = ../HomepageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +125,15 @@
 		4ABDC5D01977B3B3009780EB /* Rimo */ = {
 			isa = PBXGroup;
 			children = (
+				4ABDC6121977C10C009780EB /* CSV parsing */,
 				4ABDC6051977BB2B009780EB /* XML Parsing */,
 				4ABDC5D91977B3B3009780EB /* AppDelegate.h */,
 				4ABDC5DA1977B3B3009780EB /* AppDelegate.m */,
 				4ABDC5DC1977B3B3009780EB /* Main.storyboard */,
-				4ABDC5DF1977B3B3009780EB /* ViewController.h */,
-				4ABDC5E01977B3B3009780EB /* ViewController.m */,
+				4A16ADA71977F00700BDE4D8 /* LogInViewController.h */,
+				4A16ADA81977F00700BDE4D8 /* LogInViewController.m */,
+				4ABDC6091977BEFA009780EB /* HomepageViewController.h */,
+				4ABDC60A1977BEFA009780EB /* HomepageViewController.m */,
 				4ABDC5E21977B3B3009780EB /* Images.xcassets */,
 				4ABDC5D11977B3B3009780EB /* Supporting Files */,
 			);
@@ -172,6 +178,13 @@
 				4ABDC6021977B861009780EB /* GDataXMLNode.m */,
 			);
 			name = "XML Parsing";
+			sourceTree = "<group>";
+		};
+		4ABDC6121977C10C009780EB /* CSV parsing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CSV parsing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABDC5E11977B3B3009780EB /* ViewController.m in Sources */,
+				4ABDC60B1977BEFA009780EB /* HomepageViewController.m in Sources */,
 				4ABDC6081977BBE5009780EB /* xmlParser.m in Sources */,
+				4A16ADA91977F00700BDE4D8 /* LogInViewController.m in Sources */,
 				4ABDC6031977B861009780EB /* GDataXMLNode.m in Sources */,
 				4ABDC5DB1977B3B3009780EB /* AppDelegate.m in Sources */,
 				4ABDC5D71977B3B3009780EB /* main.m in Sources */,
